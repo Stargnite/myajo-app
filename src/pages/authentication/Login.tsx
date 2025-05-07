@@ -14,12 +14,12 @@ export default function Login() {
   };
 
   return (
-    <div className="flex min-h-screen rounded-0 md:rounded-lg md:min-h-full md:shadow-lg md:bg-white rounded-0 flex-col items-center text-start justify-center bg-[#f8f5f0] pb-4 w-full">
+    <div className="flex min-h-screen rounded-0 md:rounded-lg md:min-h-full md:shadow-lg md:my-[2rem] bg-white rounded-0 flex-col items-center text-start justify-center pb-4 w-full">
       {/* <div className="w-full max-w-md space-y-6 rounded-lg bg-white p-6 shadow-sm"> */}
       <div className="mb-5 h-[50%]">
         <img src={headerImg} alt="" />
       </div>
-      <div className="md:px-5 space-y-5">
+      <div className="md:px-5 space-y-5 px-3">
         <div className="flex flex-col items-start space-y-1">
           <h1 className="text-2xl md:text-4xl font-semibold text-gray-900">
             Welcome back to MyAjo
