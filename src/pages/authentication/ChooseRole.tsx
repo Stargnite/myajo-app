@@ -34,7 +34,6 @@ export default function ChooseRolePage() {
               <RadioGroupItem
                 value="agent"
                 id="agent"
-                className="text-[#8B5A2B]"
               />
             </div>
             <div className="space-y-2">
@@ -55,7 +54,6 @@ export default function ChooseRolePage() {
               <RadioGroupItem
                 value="member"
                 id="member"
-                className="h-5 w-5 border-2 border-[#8B5A2B] text-[#8B5A2B]"
               />
             </div>
             <div className="space-y-2">
