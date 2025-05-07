@@ -1,12 +1,12 @@
 
 import './App.css'
-import Login from './pages/Login'
+import AuthPage from './pages/authentication/AuthPage'
 
 function App() {
 
   return (
     <>
-     <Login />
+     <AuthPage />
     </>
   )
 }
