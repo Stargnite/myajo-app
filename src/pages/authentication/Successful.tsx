@@ -1,12 +1,12 @@
-import headerImg from "@/assets/myajoImg.jpg";
+import successImg from "@/assets/successImg.svg";
 import { CopyIcon } from "lucide-react";
 
 export default function SuccessfullyCreated() {
   return (
     <div className="flex min-h-screen rounded-0 md:rounded-lg md:min-h-full md:shadow-lg md:my-[2rem] bg-white rounded-0 flex-col items-center text-start justify-center pb-4 w-full">
       {/* <div className="w-full max-w-md space-y-6 rounded-lg bg-white p-6 shadow-sm"> */}
-      <div className="mb-5 h-[50%]">
-        <img src={headerImg} alt="" />
+      <div className="my-5 h-[50%]">
+        <img src={successImg} alt="" />
       </div>
       <div className="md:px-5 space-y-5 px-3">
         <div className="flex flex-col items-start space-y-1 max-w-[500px]">
@@ -19,11 +19,11 @@ export default function SuccessfullyCreated() {
           </p>
         </div>
 
-        <div className="py-10 text-gray-800">
+        <div className="py-8 text-gray-800">
           <p className="mb-2">Your Group Code:</p>
           <div className="flex items-center justify-between bg-gray-200 rounded-lg p-3">
             <p className="cursor-pointer font-bold ">AJO-8Y72XF</p>
-            <div className="cursor-pointer">
+            <div className="cursor-pointer hover:bg-gray-400 p-2 rounded-lg transition-all">
               <CopyIcon />
             </div>
           </div>
