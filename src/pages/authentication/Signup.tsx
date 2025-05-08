@@ -23,10 +23,10 @@ export default function Signup() {
       </div>
       <div className="md:px-5 space-y-5 px-3">
         <div className="flex flex-col items-start space-y-1">
-          <h1 className="text-2xl md:text-4xl font-semibold text-gray-900">
+          <h1 className="text-2xl md:text-4xl font-semibold text-gray-900 sora-header">
            Create your MyAjo account
           </h1>
-          <p className=" text-gray-600">
+          <p className=" text-gray-800">
             Register, let&apos;s start smart saving!
           </p>
         </div>
@@ -35,7 +35,7 @@ export default function Signup() {
         <div className="space-y-2">
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-bold text-gray-900"
             >
               Full Name
             </label>

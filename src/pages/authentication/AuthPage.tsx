@@ -9,11 +9,11 @@ export default function AuthPage() {
   return (
     <>
       {/* <Login /> */}
-      {/* <Signup /> */}
+      <Signup />
       {/* <ChooseRole /> */}
       {/* <CreateGroup /> */}
       {/* <JoinAjoGroup /> */}
-      <SuccessfullyCreated />
+      {/* <SuccessfullyCreated /> */}
     </>
   );
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
-import headerImg from "@/assets/myajoImg.jpg"
+import headerImg from "@/assets/myajoImg.jpg";
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -21,10 +21,10 @@ export default function Login() {
       </div>
       <div className="md:px-5 space-y-5 px-3">
         <div className="flex flex-col items-start space-y-1">
-          <h1 className="text-2xl md:text-4xl font-semibold text-gray-900">
-            Welcome back to MyAjo
+          <h1 className="text-2xl md:text-4xl font-semibold text-gray-900 sora-header">
+            Welcome back to MyÀjo
           </h1>
-          <p className=" text-gray-600">
+          <p className=" text-gray-800">
             Log in to manage your group and contributions
           </p>
         </div>
@@ -33,7 +33,7 @@ export default function Login() {
           <div className="space-y-2">
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-bold text-gray-900"
             >
               Email address
             </label>
@@ -44,14 +44,14 @@ export default function Login() {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email address"
               required
-              className="w-full rounded-lg border-0 bg-[#f0d9b5] p-3 text-gray-900 placeholder-gray-500 focus:border-[#8B5A2B] focus:outline-none"
+              className="w-full rounded-lg border-0 bg-[#D9B28C] p-3 text-gray-900 placeholder-gray-500 focus:border-[#8B5A2B] focus:outline-none"
             />
           </div>
 
           <div className="space-y-2">
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-bold text-gray-900"
             >
               Password
             </label>
@@ -61,9 +61,9 @@ export default function Login() {
                 type={showPassword ? "text" : "password"}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                 placeholder="Enter your password"
+                placeholder="Enter your password"
                 required
-                className="w-full rounded-lg border-0 bg-[#f0d9b5] p-3 text-gray-900 placeholder-gray-500 focus:border-[#8B5A2B] focus:outline-none"
+                className="w-full rounded-lg border-0 bg-[#D9B28C] p-3 text-gray-900 placeholder-gray-500 focus:border-[#8B5A2B] focus:outline-none"
               />
               <div
                 onClick={() => setShowPassword(!showPassword)}
@@ -88,7 +88,7 @@ export default function Login() {
 
         <div className="text-center text-sm">
           <a href="#" className="text-gray-600 hover:underline">
-            Forgot password? <span className="text-[#8B5A2B]">Reset</span>
+            Forgot password? <span className="text-[#8C5C2C]">Reset</span>
           </a>
         </div>
       </div>
